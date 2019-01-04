@@ -1,3 +1,7 @@
+@v Integration of the VSCode extension into VS to display STC decorator
+
+___
+
 # Better Comments
 
 The Better Comments extension will help you create more human-friendly comments in your code.  
