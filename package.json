@@ -1,20 +1,20 @@
 {
-    "name": "better-comments",
-    "displayName": "Better Comments",
+    "name": "gixdeco-comments",
+    "displayName": "GIX DECO Comments",
     "icon": "icon.png",
-    "description": "Improve your code commenting by annotating with alert, informational, TODOs, and more!",
-    "version": "2.0.3",
-    "publisher": "aaron-bond",
+    "description": "Improve deco visual recognition in code",
+    "version": "1.0.1",
+    "publisher": "guillaumeisabelle",
     "author": {
-        "name": "Aaron Bond"
+        "name": "Guillaume Isabelle"
     },
-    "homepage": "https://github.com/aaron-bond/better-comments/blob/master/README.md",
+    "homepage": "https://github.com/GuillaumeIsabelleX/better-comments/blob/master/README.md",
     "license": "SEE LICENSE IN LICENSE.md",
     "repository": {
         "type": "git",
-        "url": "https://github.com/aaron-bond/better-comments"
+        "url": "https://github.com/GuillaumeIsabelleX/better-comments"
     },
-    "bugs": "https://github.com/aaron-bond/better-comments/issues",
+    "bugs": "https://github.com/GuillaumeIsabelleX/better-comments/issues",
     "categories": [
         "Formatters"
     ],
@@ -24,7 +24,7 @@
     "activationEvents": [
         "onLanguage:ada",
         "onLanguage:al",
-		"onLanguage:asciidoc",
+        "onLanguage:asciidoc",
         "onLanguage:bibtex",
         "onLanguage:c",
         "onLanguage:clojure",
@@ -32,8 +32,8 @@
         "onLanguage:coffeescript",
         "onLanguage:cpp",
         "onLanguage:csharp",
-		"onLanguage:css",
-		"onLanguage:d",
+        "onLanguage:css",
+        "onLanguage:d",
         "onLanguage:dart",
         "onLanguage:diagram",
         "onLanguage:dockerfile",
@@ -114,7 +114,7 @@
     },
     "contributes": {
         "configuration": {
-            "title": "Better Comments configuration",
+            "title": "GIXDECO Better Comments configuration",
             "properties": {
                 "better-comments.multilineComments": {
                     "type": "boolean",
@@ -137,7 +137,19 @@
                             "backgroundColor": "transparent"
                         },
                         {
+                            "tag": "@o",
+                            "color": "#63EFF0",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
                             "tag": "?",
+                            "color": "#3498DB",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
+                            "tag": "@q",
                             "color": "#3498DB",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
@@ -149,7 +161,43 @@
                             "backgroundColor": "transparent"
                         },
                         {
-                            "tag": "todo",
+                            "tag": "--",
+                            "color": "#474747",
+                            "strikethrough": true,
+                            "backgroundColor": "transparent"
+                        },
+                        {
+                            "tag": "**",
+                            "color": "#474747",
+                            "strikethrough": true,
+                            "backgroundColor": "transparent"
+                        },
+                        {
+                            "tag": "@s",
+                            "color": "#FF8C00",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
+                            "tag": "@cr",
+                            "color": "#FF8C00",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
+                            "tag": "@v",
+                            "color": "#FF8CFD",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
+                            "tag": "@a",
+                            "color": "#FF9CFE",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
+                            "tag": "@mc",
                             "color": "#FF8C00",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
