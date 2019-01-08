@@ -41,7 +41,7 @@ export class Parser {
 	public supportedLanguage = true;
 
 	// Read from the package.json
-	private contributions: Contributions = vscode.workspace.getConfiguration('better-comments') as any;
+	private contributions: Contributions = vscode.workspace.getConfiguration('deko-comments') as any;
 
 	public constructor() {
 		this.setTags();

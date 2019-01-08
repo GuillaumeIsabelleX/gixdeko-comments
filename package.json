@@ -1,20 +1,20 @@
 {
-    "name": "gixdeco-comments",
-    "displayName": "GIX DECO Comments",
+    "name": "gixdeko-comments",
+    "displayName": "GIX STC DEKO Comments",
     "icon": "icon.png",
-    "description": "Improve deco visual recognition in code",
-    "version": "1.0.1",
+    "description": "Improve STC deko visual recognition in code along with common code commenting",
+    "version": "1.0.9",
     "publisher": "guillaumeisabelle",
     "author": {
         "name": "Guillaume Isabelle"
     },
-    "homepage": "https://github.com/GuillaumeIsabelleX/better-comments/blob/master/README.md",
+    "homepage": "https://github.com/GuillaumeIsabelleX/gixdeko-comments/blob/master/README.md",
     "license": "SEE LICENSE IN LICENSE.md",
     "repository": {
         "type": "git",
-        "url": "https://github.com/GuillaumeIsabelleX/better-comments"
+        "url": "https://github.com/GuillaumeIsabelleX/gixdeko-comments"
     },
-    "bugs": "https://github.com/GuillaumeIsabelleX/better-comments/issues",
+    "bugs": "https://github.com/GuillaumeIsabelleX/gixdeko-comments/issues",
     "categories": [
         "Formatters"
     ],
@@ -114,19 +114,19 @@
     },
     "contributes": {
         "configuration": {
-            "title": "GIXDECO Better Comments configuration",
+            "title": "GIXDECO Deko Comments configuration",
             "properties": {
-                "better-comments.multilineComments": {
+                "deko-comments.multilineComments": {
                     "type": "boolean",
                     "description": "Whether the multiline comment highlighter should be active",
                     "default": true
                 },
-                "better-comments.highlightPlainText": {
+                "deko-comments.highlightPlainText": {
                     "type": "boolean",
                     "description": "Whether the plaintext comment highlighter should be active",
                     "default": false
                 },
-                "better-comments.tags": {
+                "deko-comments.tags": {
                     "type": "array",
                     "description": "Tags which are used to color the comments. Changes require a restart of VS Code to take effect",
                     "default": [
@@ -192,7 +192,7 @@
                         },
                         {
                             "tag": "@a",
-                            "color": "#FF9CFE",
+                            "color": "#EAACFE",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
                         },
@@ -202,10 +202,11 @@
                             "strikethrough": false,
                             "backgroundColor": "transparent"
                         },
+			 {                            "tag": "@startuml",                            "color": "#FF8C00",                            "strikethrough": false,                            "backgroundColor": "transparent"                        },
                         {
                             "tag": "*",
                             "color": "#98C379",
-                            "strikethrough": false,
+                            "strikethrough": true,
                             "backgroundColor": "transparent"
                         }
                     ]
