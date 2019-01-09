@@ -3,7 +3,7 @@
     "displayName": "GIX STC DEKO Comments",
     "icon": "icon.png",
     "description": "Improve STC deko visual recognition in code along with common code commenting",
-    "version": "1.0.11",
+    "version": "1.0.14",
     "publisher": "guillaumeisabelle",
     "author": {
         "name": "Guillaume Isabelle"
@@ -155,23 +155,17 @@
                             "backgroundColor": "transparent"
                         },
                         {
-                            "tag": "//",
-                            "color": "#474747",
-                            "strikethrough": true,
-                            "backgroundColor": "transparent"
-                        }
-                       
-                       
-                      
-                     
-                    
-                        ,
-                        {
                             "tag": "@s",
                             "color": "#FF8C00",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
                         },
+                        {
+                            "tag": "@test",
+                            "color": "#FF8C00",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        }
                         {
                             "tag": "@cr",
                             "color": "#FF8C00",
@@ -189,20 +183,25 @@
                             "color": "#EABCFE",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
-                        }, {                            "tag": "//--",                            "color": "#AABCBE",                            "strikethrough": false,                            "backgroundColor": "transparent"                        },
+                        },
+                        {
+                            "tag": "//--",
+                            "color": "#AABCBE",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
                         {
                             "tag": "@mc",
                             "color": "#FF8C00",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
                         },
-			 {                            "tag": "@startuml",                            "color": "#FF8C00",                            "strikethrough": false,                            "backgroundColor": "transparent"                        }
-                        
-                    
-                     
-                      
-                       
-                        
+                        {
+                            "tag": "@startuml",
+                            "color": "#FF8C00",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        }
                     ]
                 }
             }
