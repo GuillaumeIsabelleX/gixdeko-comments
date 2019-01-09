@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.0.18] (2010-01-09)
+### Changed
+* adjusted parser to support /** 
+* added observation 
+
 ## [1.0.17] (2010-01-09)
 ### Changed
 * added @resolving, @rejecting to work with Promise

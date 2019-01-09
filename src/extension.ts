@@ -45,7 +45,7 @@ export function activate(context: vscode.ExtensionContext) {
 		if (editor) {
 
 			// Set regex for updated language
-			parser.SetRegex(editor.document.languageId);
+			parser.SetRegex(editor.document.languageId); //@o 190109 Takes the current editor document language...
 
 			// Trigger update to set decorations for newly active file
 			triggerUpdateDecorations();
@@ -69,7 +69,7 @@ export function activate(context: vscode.ExtensionContext) {
 		if (timeout) {
 			clearTimeout(timeout);
 		}
-		timeout = setTimeout(updateDecorations, 200);
+		timeout = setTimeout(updateDecorations, 250);
 	}
 }
 

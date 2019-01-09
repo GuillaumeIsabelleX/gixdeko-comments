@@ -237,6 +237,8 @@ export class Parser {
 	 * https://code.visualstudio.com/docs/languages/identifiers
 	 */
 	private setDelimiter(languageCode: string): void {
+		//@issue 1901 Sets the DElimiters for Lang
+		//@q 190110 How comes the Javascript has none??
 		this.supportedLanguage = true;
 		this.ignoreFirstLine = false;
 		this.isPlainText = false;
@@ -251,7 +253,7 @@ export class Parser {
 			case "javascriptreact":
 			case "typescript":
 			case "typescriptreact":
-				this.setCommentFormat("//", "/*", "*/");
+				this.setCommentFormat("//", "/*", "*/","/**");
 				this.highlightJSDoc = true;
 				break;
 
@@ -324,6 +326,8 @@ export class Parser {
 			case "ada":
 			case "hive-sql":
 			case "lua":
+			case "puml":
+				this.setCommentFormat("'", "/*", "*/");
 			case "pig":
 			case "plsql":
 			case "sql":
