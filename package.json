@@ -3,7 +3,7 @@
     "displayName": "GIX STC DEKO Comments",
     "icon": "icon.png",
     "description": "Improve STC deko visual recognition in code along with common code commenting",
-    "version": "1.0.14",
+    "version": "1.0.15",
     "publisher": "guillaumeisabelle",
     "author": {
         "name": "Guillaume Isabelle"
@@ -165,7 +165,13 @@
                             "color": "#FF8C00",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
-                        }
+                        },
+                        {
+                            "tag": "@result",
+                            "color": "#FF6C20",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
                         {
                             "tag": "@cr",
                             "color": "#FF8C00",
@@ -185,8 +191,8 @@
                             "backgroundColor": "transparent"
                         },
                         {
-                            "tag": "//--",
-                            "color": "#AABCBE",
+                            "tag": "--",
+                            "color": "#FABCBE",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
                         },
@@ -198,6 +204,12 @@
                         },
                         {
                             "tag": "@startuml",
+                            "color": "#FF8C00",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
+                            "tag": "@enduml",
                             "color": "#FF8C00",
                             "strikethrough": false,
                             "backgroundColor": "transparent"

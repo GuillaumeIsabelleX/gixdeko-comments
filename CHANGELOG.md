@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.0.15] (2010-01-09)
+### Changed
+* added @result, @test
+
 ## [1.0.9] (2010-01-07)
 ### Changed
 * minor - Icon
