@@ -1,8 +1,11 @@
 # Change Log
 
-## [1.0.16] (2010-01-09)
+## [1.0.17] (2010-01-09)
 ### Changed
 * added @resolving, @rejecting to work with Promise
+
+## [1.0.16] (2010-01-09)
+### Changed
 * added @bug, @issue
 
 ## [1.0.15] (2010-01-09)
