@@ -1,9 +1,9 @@
 {
     "name": "gixdeko-comments",
-    "displayName": "GIX STC DEKO Comments",
+    "displayName": "GIX STC DEKO Comments - Structural Decorator",
     "icon": "icon.png",
     "description": "Form a resemblant of an underlying structural tension while coding by marking(decorating) your intensions, observations, questions, state and see an interesting visual representation. ",
-    "version": "1.0.19",
+    "version": "1.0.23",
     "publisher": "guillaumeisabelle",
     "author": {
         "name": "Guillaume Isabelle"
@@ -62,6 +62,10 @@
         "onLanguage:lua",
         "onLanguage:makefile",
         "onLanguage:matlab",
+        "onLanguage:markdown",
+        "onLanguage:md",
+        "onLanguage:mustache",
+        "onLanguage:mst",
         "onLanguage:nim",
         "onLanguage:objective-c",
         "onLanguage:objective-cpp",
@@ -155,6 +159,12 @@
                             "backgroundColor": "transparent"
                         },
                         {
+                            "tag": "@feature",
+                            "color": "#ECE30C",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
                             "tag": "@s",
                             "color": "#FF8C00",
                             "strikethrough": false,
@@ -215,14 +225,14 @@
                             "backgroundColor": "transparent"
                         },
                         {
-                            "tag": "--",
-                            "color": "#FABCBE",
+                            "tag": "@mc",
+                            "color": "#FF8C00",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
                         },
                         {
-                            "tag": "@mc",
-                            "color": "#FF8C00",
+                            "tag": "@fields",
+                            "color": "#95FB03",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
                         },

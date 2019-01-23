@@ -17,6 +17,9 @@ ___
 |  @startuml | UML  | see PlantUML   |   |   |
 |  @startmc | Start a MasterChart  | MasterChart description   |   |   |
 |  @mc | State a MasterChart goal  |   | Top level goal might help another action so you can see the whole hierarchy  |   |
+|  @fields | Data props  |  Ennumerate data props | @fields GoalText,DueDate,Note  |   |
+|  @bug | Bug  |  Describe a bug |   | @issue  |
+|  @issue | Issue  |  Describe an Issue |   |   |
 
 
 

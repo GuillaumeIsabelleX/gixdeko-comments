@@ -1,5 +1,15 @@
 # Change Log
 
+## [1.0.22] (2010-01-23)
+### Changed
+* Added @fields for data design
+* Minor fix
+
+## [1.0.20-21] (2010-01-23)
+### Changed
+* Forget about them ;)
+
+
 ## [1.0.19] (2010-01-23)
 ### Changed
 * Adding support for Markdown using \-,\#,\*,o
@@ -8,6 +18,7 @@
 ### Changed
 * adjusted parser to support /** 
 * added observation 
+
 
 ## [1.0.17] (2010-01-09)
 ### Changed
