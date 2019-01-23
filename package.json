@@ -2,8 +2,8 @@
     "name": "gixdeko-comments",
     "displayName": "GIX STC DEKO Comments",
     "icon": "icon.png",
-    "description": "Improve STC deko visual recognition in code along with common code commenting",
-    "version": "1.0.18",
+    "description": "Form a resemblant of an underlying structural tension while coding by marking(decorating) your intensions, observations, questions, state and see an interesting visual representation. ",
+    "version": "1.0.19",
     "publisher": "guillaumeisabelle",
     "author": {
         "name": "Guillaume Isabelle"

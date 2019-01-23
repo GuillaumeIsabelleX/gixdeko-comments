@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.0.19] (2010-01-23)
+### Changed
+* Adding support for Markdown using \-,\#,\*,o
+
 ## [1.0.18] (2010-01-09)
 ### Changed
 * adjusted parser to support /** 

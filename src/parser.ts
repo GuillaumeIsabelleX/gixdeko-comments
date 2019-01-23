@@ -122,7 +122,7 @@ export class Parser {
 
 		// If highlight multiline is off in package.json or doesn't apply to his language, return
 		if (!this.highlightMultilineComments) return;
-		
+
 		let text = activeEditor.document.getText();
 
 		// Build up regex matcher for custom delimter tags
@@ -236,27 +236,24 @@ export class Parser {
 	 * @param languageCode The short code of the current language
 	 * https://code.visualstudio.com/docs/languages/identifiers
 	 */
+
 	private setDelimiter(languageCode: string): void {
 		//@issue 1901 Sets the DElimiters for Lang
-		//@q 190110 How comes the Javascript has none??
+		//@q 190110 How comes the Javascript has none?? (same as TypeScript
 		this.supportedLanguage = true;
 		this.ignoreFirstLine = false;
 		this.isPlainText = false;
-
 		switch (languageCode) {
-
 			case "asciidoc":
 				this.setCommentFormat("//", "////", "////");
 				break;
-
 			case "javascript":
 			case "javascriptreact":
 			case "typescript":
 			case "typescriptreact":
-				this.setCommentFormat("//", "/*", "*/","/**");
+				this.setCommentFormat("//", "/*", "*/");
 				this.highlightJSDoc = true;
 				break;
-
 			case "al":
 			case "c":
 			case "cpp":
@@ -282,11 +279,9 @@ export class Parser {
 			case "vue":
 				this.setCommentFormat("//", "/*", "*/");
 				break;
-			
 			case "css":
 				this.setCommentFormat("/*", "/*", "*/");
 				break;
-
 			case "coffeescript":
 			case "dockerfile":
 			case "gdscript":
@@ -303,26 +298,21 @@ export class Parser {
 			case "yaml":
 				this.delimiter = "#";
 				break;
-			
 			case "tcl":
 				this.delimiter = "#";
 				this.ignoreFirstLine = true;
 				break;
-
 			case "elixir":
 			case "python":
 				this.setCommentFormat("#", '"""', '"""');
 				this.ignoreFirstLine = true;
 				break;
-			
 			case "nim":
 				this.setCommentFormat("#", "#[", "]#");
 				break;
-
 			case "powershell":
 				this.setCommentFormat("#", "<#", "#>");
 				break;
-
 			case "ada":
 			case "hive-sql":
 			case "lua":
@@ -333,61 +323,54 @@ export class Parser {
 			case "sql":
 				this.delimiter = "--";
 				break;
-
 			case "haskell":
 				this.setCommentFormat("--", "{-", "-}");
 				break;
-
 			case "vb":
 			case "diagram": // ? PlantUML is recognized as Diagram (diagram)
 				this.delimiter = "'";
 				break;
-
 			case "bibtex":
 			case "erlang":
 			case "latex":
 			case "matlab":
 				this.delimiter = "%";
 				break;
-
 			case "clojure":
 			case "racket":
 			case "lisp":
 				this.delimiter = ";";
 				break;
-
 			case "terraform":
 				this.setCommentFormat("#", "/*", "*/");
 				break;
-
 			case "COBOL":
 				this.delimiter = this.escapeRegExp("*>");
 				break;
-
 			case "fortran-modern":
 				this.delimiter = "c";
 				break;
-			
 			case "SAS":
 			case "stata":
 				this.setCommentFormat("*", "/*", "*/");
 				break;
-			
+			case "mst":
+			case "mustache":
 			case "html":
 				this.setCommentFormat("<!--", "<!--", "-->");
 				break;
-			
+			case "markdown":
+			case "md":
+				this.setCommentFormat("--", "* ", "# ");
+				break;
 			case "twig":
 				this.setCommentFormat("{#", "{#", "#}");
 				break;
-
 			case "plaintext":
 				this.isPlainText = true;
-
 				// If highlight plaintext is enabeld, this is a supported language
 				this.supportedLanguage = this.contributions.highlightPlainText;
 				break;
-
 			default:
 				this.supportedLanguage = false;
 				break;
@@ -431,7 +414,7 @@ export class Parser {
 	 * @param end The end delimiter for block comments
 	 */
 	private setCommentFormat(singleLine: string | null, start: string, end: string): void {
-		
+
 		// If no single line comment delimiter is passed, single line comments are not supported
 		if (singleLine) {
 			this.delimiter = this.escapeRegExp(singleLine);

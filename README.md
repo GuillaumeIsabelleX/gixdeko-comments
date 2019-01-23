@@ -1,15 +1,22 @@
-@v Integration of the VSCode extension into VS to display STC decorator
+# Intentions #
+
+* Form a resemblant of an underlying structural tension while coding by marking(decorating) your intensions, observations, questions, state and see an interesting visual representation.
 
 ___
 
-## Supported deko comment decoration
-* @v
-* @a
-* @o
-* @cr
-* @q
-* @startuml
-* @mc
+##  Dekos table  ##
+
+| Deko  | Name   | Goal  | Note   | Synonym   |
+|---|---|------------------------|---|---|
+|  @v | Vision   | A result we want  | Recognizable sentence you can get the picture and say, I have reached that!  |   |
+|  @a | Action  | A phase/step in a plan to reach a goal  | Intermediary result to Vision that lined up you get the vision realized.  Goes with a @v  |   |
+|  @o | Observation  | Point an observation  |   |   |
+|  @cr | Current Reality  | Picture where you are in relationship to the vision (@v)  |   |  @s |
+|  @s | Status  | Same as @cr  | I use it to state what is hapenning in code in contrast to @cr which is more charting related to vision (@v)  |  @cr |
+|  @q | Question  | A Question to create tension  | Useful to give the mind a thing to do  |   |
+|  @startuml | UML  | see PlantUML   |   |   |
+|  @startmc | Start a MasterChart  | MasterChart description   |   |   |
+|  @mc | State a MasterChart goal  |   | Top level goal might help another action so you can see the whole hierarchy  |   |
 
 
 
