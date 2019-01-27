@@ -19,7 +19,8 @@ steps:
 - script: |
     npm install
     npm install vsce --g
-    npm version patch -m "Upgrade to %s for reasons"
+    npm install -g version-bump-prompt
+    bump --prompt --tag --push --all
     vsce publish  -p evos75fhopjru3sfu2z25k2bl4dxhp7z3wtvvsx5qi4t4xghj4ca
     
   displayName: 'npm install, build and VSCE publish'
