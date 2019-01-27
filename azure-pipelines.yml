@@ -21,6 +21,6 @@ steps:
     npm install vsce --g
     npm install -g version-bump-prompt
     bump --patch --tag --all
-    vsce publish  -p evos75fhopjru3sfu2z25k2bl4dxhp7z3wtvvsx5qi4t4xghj4ca
+    vsce publish  -p xyz
     
   displayName: 'npm install, build and VSCE publish'
