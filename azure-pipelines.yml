@@ -18,5 +18,7 @@ steps:
 - script: |
     npm install
     npm install vsce --g
-    vsce publish -p "t4vxg5svgfgiqnzbcjuwvqimxzizrpx53n3byhee2iw67wktk32a"
+    vsce create-publisher "GuillaumeIsabelleX"
+    vsce publish -p t4vxg5svgfgiqnzbcjuwvqimxzizrpx53n3byhee2iw67wktk32a
+    vsce publish minor
   displayName: 'npm install, build and publish'
