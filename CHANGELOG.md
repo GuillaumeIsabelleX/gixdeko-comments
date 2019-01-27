@@ -1,11 +1,11 @@
 # Change Log
 
-## [1.0.22] (2010-01-23)
+## [1.0.23] (2010-01-23)
 ### Changed
 * Added @fields for data design
 * Minor fix
 
-## [1.0.20-21] (2010-01-23)
+## [1.0.20-22] (2010-01-23)
 ### Changed
 * Forget about them ;)
 
