@@ -110,7 +110,7 @@
     },
     "main": "./out/extension",
     "scripts": {
-        "pre-release-patch": "git commit . -m \"releasing version\" && npm version patch ",
+        "pre-release-patch": "git commit . -m \"releasing version\" && npm version patch && git push",
         "release": " git commit . -m \"version\" && git push && vsce publish",
         "vscode:prepublish": "npm run compile",
         "compile": "tsc -p ./",
