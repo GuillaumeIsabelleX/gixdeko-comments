@@ -111,7 +111,7 @@
     "main": "./out/extension",
     "scripts": {
         "pre-release-patch": "git commit . -m \"releasing version\" && npm version patch && git push",
-        "release": " git commit . -m \"version\" && git push && vsce publish",
+        "publish": "npm run pre-release-patch && vsce publish",
         "vscode:prepublish": "npm run compile",
         "compile": "tsc -p ./",
         "watch": "tsc -watch -p ./",
