@@ -11,15 +11,23 @@ ___
 |  @v | Vision   | A result we want  | Recognizable sentence you can get the picture and say, I have reached that!  |   |
 |  @a | Action  | A phase/step in a plan to reach a goal  | Intermediary result to Vision that lined up you get the vision realized.  Goes with a @v  |   |
 |  @o | Observation  | Point an observation  |   |   |
-|  @cr | Current Reality  | Picture where you are in relationship to the vision (@v)  |   |  @s |
+|  @cr | Current Reality  | Picture where you are in relationship to the vision (@v)  |   |  @s,@currentreality |
 |  @s | Status  | Same as @cr  | I use it to state what is hapenning in code in contrast to @cr which is more charting related to vision (@v)  |  @cr |
 |  @q | Question  | A Question to create tension  | Useful to give the mind a thing to do  |   |
 |  @startuml | UML  | see PlantUML   |   |   |
 |  @startmc | Start a MasterChart  | MasterChart description   |   |   |
-|  @mc | State a MasterChart goal  |   | Top level goal might help another action so you can see the whole hierarchy  |   |
+|  @mc | State a MasterChart goal  |   | Top level goal might help another action so you can see the whole hierarchy  | @MasterChart  |
 |  @fields | Data props  |  Ennumerate data props | @fields GoalText,DueDate,Note  |   |
 |  @bug | Bug  |  Describe a bug |   | @issue  |
+|  @test | testing  |  Describe a test |   | @tst  |
+|  @insight | Insight  |  Describe an insight |   | @i  |
 |  @issue | Issue  |  Describe an Issue |   |   |
+|  @mastery | Mastery  |  Describe a desired mastery |   | @m,@mastering   |
+|  @mastery | Mastery  |  Describe a desired mastery |   | @m   |
+|  @promise | Promise class  |  Describe a desired promise class resolution |   | @p   |
+|  @resolving | Promise class resolving  |  Describe a desired promise class resolution |   | @res,@resolution,@to_resolve ,@resolved  |
+|  @rejecting | Promise class rejection  |  Describe a desired promise class rejection |   | @rejection,@reject,@to_reject,@rejected   |
+
 
 
 
