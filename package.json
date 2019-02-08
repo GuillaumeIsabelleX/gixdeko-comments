@@ -110,6 +110,7 @@
     },
     "main": "./out/extension",
     "scripts": {
+        "release": "git commit . -m \"releasing version\" && npm version patch && git commit . -m \"version\" && git push && vsce publish",
         "vscode:prepublish": "npm run compile",
         "compile": "tsc -p ./",
         "watch": "tsc -watch -p ./",
@@ -159,7 +160,7 @@
                             "backgroundColor": "transparent"
                         },
                         {
-                            "tag": "@feature",
+                            "tag": "@featur",
                             "color": "#ECE30C",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
@@ -172,7 +173,7 @@
                         },
                         {
                             "tag": "@test",
-                            "color": "#FF8C01",
+                            "color": "#FF8C71",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
                         },
@@ -184,13 +185,13 @@
                         },
                         {
                             "tag": "@tested",
-                            "color": "#FF8C04",
+                            "color": "#FF8C94",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
                         },
                         {
                             "tag": "@testing",
-                            "color": "#FF8C00",
+                            "color": "#FF8C70",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
                         },
@@ -231,8 +232,14 @@
                             "backgroundColor": "transparent"
                         },
                         {
-                            "tag": "@res",
-                            "color": "#94EC0D",
+                            "tag": "@resource",
+                            "color": "#1568ed",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
+                            "tag": "@urir",
+                            "color": "#1568ed",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
                         },
