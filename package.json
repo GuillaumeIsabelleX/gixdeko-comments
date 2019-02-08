@@ -3,7 +3,7 @@
     "displayName": "GIX STC DEKO Comments - Structural Decorator",
     "icon": "icon.png",
     "description": "Form a resemblant of an underlying structural tension while coding by marking(decorating) your intensions, observations, questions, state and see an interesting visual representation. ",
-    "version": "1.0.31",
+    "version": "1.0.36",
     "publisher": "guillaumeisabelle",
     "author": {
         "name": "Guillaume Isabelle"
@@ -172,6 +172,24 @@
                         },
                         {
                             "tag": "@test",
+                            "color": "#FF8C01",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
+                            "tag": "@tst",
+                            "color": "#FF8C01",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
+                            "tag": "@tested",
+                            "color": "#FF8C04",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
+                            "tag": "@testing",
                             "color": "#FF8C00",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
@@ -189,8 +207,20 @@
                             "backgroundColor": "transparent"
                         },
                         {
+                            "tag": "@currentreality",
+                            "color": "#FF8C00",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
                             "tag": "@bug",
                             "color": "#EC370D",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
+                            "tag": "@promise",
+                            "color": "#A4EC1D",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
                         },
@@ -201,7 +231,43 @@
                             "backgroundColor": "transparent"
                         },
                         {
+                            "tag": "@res",
+                            "color": "#94EC0D",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
                             "tag": "@rejecting",
+                            "color": "#BCEC0D",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
+                            "tag": "@to_resolve",
+                            "color": "#BCEC0D",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
+                            "tag": "@resolved",
+                            "color": "#BCEC0D",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
+                            "tag": "@rejection",
+                            "color": "#BCEC0D",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
+                            "tag": "@rejected",
+                            "color": "#BCEC0D",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
+                            "tag": "@to_reject",
                             "color": "#BCEC0D",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
@@ -231,6 +297,30 @@
                             "backgroundColor": "transparent"
                         },
                         {
+                            "tag": "@m",
+                            "color": "#FE8D09",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
+                            "tag": "@mastery",
+                            "color": "#FE8D09",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
+                            "tag": "@mastering",
+                            "color": "#FE8D09",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
+                            "tag": "@mastered",
+                            "color": "#FE8D09",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
                             "tag": "@fields",
                             "color": "#95FB03",
                             "strikethrough": false,
@@ -254,10 +344,10 @@
         }
     },
     "devDependencies": {
-        "typescript": "^2.6.1",
-        "vsce": "^1.48.0",
-        "vscode": "^1.1.0",
         "@types/node": "^8.0.0",
-        "tslint": "^5.10.0"
+        "tslint": "^5.10.0",
+        "typescript": "^2.6.1",
+        "vsce": "^1.55.0",
+        "vscode": "^1.1.0"
     }
 }

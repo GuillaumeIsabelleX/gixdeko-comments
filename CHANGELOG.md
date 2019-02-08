@@ -1,11 +1,12 @@
 # Change Log
 
-## [1.0.23] (2010-01-23)
+## [1.0.35] (2010-02-02)
 ### Changed
+* Added @mastery,@promise,@resolving/@rejecting, and more see the README
 * Added @fields for data design
 * Minor fix
 
-## [1.0.20-22] (2010-01-23)
+## [1.0.20-34] (2010-01-23)
 ### Changed
 * Forget about them ;)
 
