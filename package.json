@@ -3,7 +3,7 @@
     "displayName": "GIX STC DEKO Comments - Structural Decorator",
     "icon": "icon.png",
     "description": "Form a resemblant of an underlying structural tension while coding by marking(decorating) your intensions, observations, questions, state and see an interesting visual representation. ",
-    "version": "1.0.40",
+    "version": "1.0.41",
     "publisher": "guillaumeisabelle",
     "author": {
         "name": "Guillaume Isabelle"
@@ -144,13 +144,19 @@
                         },
                         {
                             "tag": "@o",
-                            "color": "#33EFF0",
+                            "color": "#0afdff",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
                         },
                         {
+                            "tag": "#",
+                            "color": "#050505",
+                            "strikethrough": false,
+                            "backgroundColor": "#fce485"
+                        },
+                        {
                             "tag": "?",
-                            "color": "#3498DB",
+                            "color": "#ECE20D",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
                         },
@@ -240,7 +246,7 @@
                         },
                         {
                             "tag": "@urir",
-                            "color": "#1568ed",
+                            "color": "#2568ed",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
                         },
@@ -270,7 +276,7 @@
                         },
                         {
                             "tag": "@rejected",
-                            "color": "#BCEC0D",
+                            "color": "#BCEC1D",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
                         },
@@ -282,7 +288,7 @@
                         },
                         {
                             "tag": "@issue",
-                            "color": "#EC660D",
+                            "color": "#ff6500",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
                         },
@@ -294,7 +300,7 @@
                         },
                         {
                             "tag": "@a",
-                            "color": "#EABCFE",
+                            "color": "#02ff63",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
                         },
@@ -305,26 +311,38 @@
                             "backgroundColor": "transparent"
                         },
                         {
+                            "tag": "_",
+                            "color": "#f3fccf",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
+                            "tag": "-",
+                            "color": "#f3fcca",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
                             "tag": "@m",
-                            "color": "#FE8D09",
+                            "color": "#ff0280",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
                         },
                         {
                             "tag": "@mastery",
-                            "color": "#FE8D09",
+                            "color": "#ff0280",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
                         },
                         {
                             "tag": "@mastering",
-                            "color": "#FE8D09",
+                            "color": "#ff0280",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
                         },
                         {
                             "tag": "@mastered",
-                            "color": "#FE8D09",
+                            "color": "#b20058",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
                         },
