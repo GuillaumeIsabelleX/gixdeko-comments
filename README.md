@@ -1,6 +1,7 @@
 # Intentions #
 
 * Form a resemblant of an underlying structural tension while coding by marking(decorating) your intensions, observations, questions, state and see an interesting visual representation.
+* Also try [GuillaumeIsabelle.deko-tree-overviewing]() VS Extension -- [marketPlace]()
 
 ___
 
@@ -27,11 +28,17 @@ ___
 |  @promise | Promise class  |  Describe a desired promise class resolution |   | @p   |
 |  @resolving | Promise class resolving  |  Describe a desired promise class resolution |   | @res,@resolution,@to_resolve ,@resolved  |
 |  @rejecting | Promise class rejection  |  Describe a desired promise class rejection |   | @rejection,@reject,@to_reject,@rejected   |
+|  _ | Separate code with visual  |  //_   Different colored  |   | ...   |
+|  - | Separate code with visual  |  //-----Nice separator----- |   | ...   |
 
 
 
 
 
+
+
+[GuillaumeIsabelle.deko-tree-overviewing]:https://github.com/GuillaumeIsabelleX/deko-tree-overviewing/blob/master/README.md#installing
+[marketPlace]:https://marketplace.visualstudio.com/items?itemName=GuillaumeIsabelle.deko-tree-overviewing
 
 
 ___
