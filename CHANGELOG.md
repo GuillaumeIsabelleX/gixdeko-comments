@@ -1,5 +1,15 @@
 # Change Log
 
+## [1.0.42] (2010-02-25)
+### Changed
+* Added deko @insight, @info, @g
+* Now supporting: @Goal, @Information
+* Adjusted some colors :)
+
+## [1.0.36-41] (2010-01-23)
+### Changed
+* Forget about them ;)
+
 ## [1.0.35] (2010-02-02)
 ### Changed
 * Added @mastery,@promise,@resolving/@rejecting, and more see the README

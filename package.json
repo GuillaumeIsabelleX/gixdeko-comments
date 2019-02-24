@@ -293,8 +293,26 @@
                             "backgroundColor": "transparent"
                         },
                         {
+                            "tag": "@insight",
+                            "color": "#eed2f7",
+                            "strikethrough": false,
+                            "backgroundColor": "#023b47"
+                        },
+                        {
+                            "tag": "@info",
+                            "color": "#9ecff7",
+                            "strikethrough": false,
+                            "backgroundColor": "#05253f"
+                        },
+                        {
                             "tag": "@v",
                             "color": "#FF8CFD",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
+                            "tag": "@g",
+                            "color": "#FF8CFB",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
                         },
