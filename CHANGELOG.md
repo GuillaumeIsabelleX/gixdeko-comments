@@ -1,9 +1,13 @@
 # Change Log
 
-## [1.0.43] (2010-04-09)
+## [1.0.87] (2010-04-09)
 ### Changed
 * Documentation and references
 * Adjusted dekorators
+
+## [1.0.43-86] (2010-04-09)
+### Issues
+* FORGET about them (continous loop published the extentions :) )
 
 ## [1.0.42] (2010-02-25)
 ### Changed
