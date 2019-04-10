@@ -20,12 +20,12 @@ jobs:
       - checkout
 
      # Install VSCE 
-      - run: npm install vsce --g
+      - run: yarn add vsce  
 
 
       - run: yarn install
 
      
       # run tests!
-      - run: yarn pre-release-patch && vsce publish -p ${VS_TOKEN}
+      - run: yarn pre-release-patch && ./node_modules/.bin/vsce publish -p ${VS_TOKEN}
 
