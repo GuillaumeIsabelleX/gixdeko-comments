@@ -3,6 +3,15 @@
     "displayName": "GIX STC DEKO Comments - Structural Decorator",
     "icon": "icon.png",
     "description": "Form a resemblant of an underlying structural tension while coding by marking(decorating) your intensions, observations, questions, state and see an interesting visual representation. ",
+    "scripts": {
+        "pre-release-patch": "npm version patch && git push",
+        "publish": "npm run pre-release-patch && vsce publish",
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "lint": "tslint -c tslint.json 'src/**/*.ts'"
+    },
     "version": "1.0.42",
     "publisher": "guillaumeisabelle",
     "author": {
@@ -109,15 +118,6 @@
         "theme": "light"
     },
     "main": "./out/extension",
-    "scripts": {
-        "pre-release-patch": "git commit . -m \"releasing version\" && npm version patch && git push",
-        "publish": "npm run pre-release-patch && vsce publish",
-        "vscode:prepublish": "npm run compile",
-        "compile": "tsc -p ./",
-        "watch": "tsc -watch -p ./",
-        "postinstall": "node ./node_modules/vscode/bin/install",
-        "lint": "tslint -c tslint.json 'src/**/*.ts'"
-    },
     "contributes": {
         "configuration": {
             "title": "GIXDECO Deko Comments configuration",
