@@ -17,7 +17,10 @@ jobs:
     working_directory: ~/repo
 
     steps:
-      - checkout
+      #- checkout
+#https://github.com/GuillaumeIsabelleX/
+      - run: git clone https://${GITHUB_TOKEN}@github.com/GuillaumeIsabelleX/gixdeko-comments.git .
+      #GITHUB_TOKEN
 
      # Install VSCE 
       - run: yarn add vsce  
