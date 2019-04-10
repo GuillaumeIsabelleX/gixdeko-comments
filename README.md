@@ -56,20 +56,9 @@ ___
 
 ---
 
-# thanks to: aaron-bond from which this was based and inspired from :)
+# thanks to: aaron-bond from which this was based and inspired from Better Comments
 
-# From : Better Comments
 
-The Deko Comments extension will help you create more human-friendly comments in your code.  
-With this extension, you will be able to categorise your annotations into:
-* Alerts
-* Queries
-* TODOs
-* Highlights
-* Commented out code can also be styled to make it clear the code shouldn't be there
-* Any other comment styles you'd like can be specified in the settings
-
-![Annotated code](images/deko-comments.PNG)
 
 ## Configuration
 
@@ -159,6 +148,7 @@ The default 5 can be modifed to change the colors, and more can be added.
 * Lisp
 * Lua
 * Makefile
+* Markdown
 * Nim
 * MATLAB
 * Objective-C
@@ -196,3 +186,4 @@ The default 5 can be modifed to change the colors, and more can be added.
 * Visual Basic
 * Vue.js
 * YAML
+
