@@ -1,7 +1,7 @@
 # Intentions #
 
 * Form a resemblant of an underlying structural tension while coding by marking(decorating) your intensions, observations, questions, state and see an interesting visual representation.
-* Also try [GuillaumeIsabelle.deko-tree-overviewing]() VS Extension -- [marketPlace]()
+
 
 ___
 
@@ -30,20 +30,33 @@ ___
 |  @rejecting | Promise class rejection  |  Describe a desired promise class rejection |   | @rejection,@reject,@to_reject,@rejected   |
 |  _ | Separate code with visual  |  //_   Different colored  |   | ...   |
 |  - | Separate code with visual  |  //-----Nice separator----- |   | ...   |
+|  ###... | Contrasted visual separator  |  //#### separator----- |   | ...   |
 
 
 
+# OTHER RESOURCES
+
+## STC Deko Tree
+
+* Also try [GuillaumeIsabelle.deko-tree-overviewing]() VS Extension -- [marketPlace]()
+
+## Structural Thinking
+* Know more on Structural Thinking [Fritz Structural Thinking]()
 
 
 
+ [Fritz Structural Thinking]:http://guillaumeisabelle.com/r/structural-thinking/stc-deko-readme
 
 [GuillaumeIsabelle.deko-tree-overviewing]:https://github.com/GuillaumeIsabelleX/deko-tree-overviewing/blob/master/README.md#installing
 [marketPlace]:https://marketplace.visualstudio.com/items?itemName=GuillaumeIsabelle.deko-tree-overviewing
 
 
+
 ___
 
-# thanks to: aaron-bond
+---
+
+# thanks to: aaron-bond from which this was based and inspired from :)
 
 # From : Better Comments
 
