@@ -33,5 +33,7 @@ jobs:
 
      
       # run tests!
-      - run: yarn pre-release-patch && yarn vscode:prepublish && ./node_modules/.bin/vsce publish -p "${VS_TOKEN}"
+      #@issue It restart Building in loop so versionning will have to be done before pushing new release code
+#      - run: yarn pre-release-patch && yarn vscode:prepublish && ./node_modules/.bin/vsce publish -p "${VS_TOKEN}"
+      - run: yarn vscode:prepublish && ./node_modules/.bin/vsce publish -p "${VS_TOKEN}"
 
