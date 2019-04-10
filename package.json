@@ -4,7 +4,7 @@
     "icon": "icon.png",
     "description": "Form a resemblant of an underlying structural tension while coding by marking(decorating) your intensions, observations, questions, state and see an interesting visual representation. ",
     "scripts": {
-        "pre-release-patch": "npm version patch && git push",
+        "pre-release-patch": "npm version patch && git commit package.json -m \"version published\" && git push",
         "publish": "npm run pre-release-patch && vsce publish",
         "vscode:prepublish": "npm run compile",
         "compile": "tsc -p ./",
