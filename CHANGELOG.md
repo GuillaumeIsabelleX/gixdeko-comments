@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.0.43] (2010-04-09)
+### Changed
+* Documentation and references
+* Adjusted dekorators
+
 ## [1.0.42] (2010-02-25)
 ### Changed
 * Added deko @insight, @info, @g

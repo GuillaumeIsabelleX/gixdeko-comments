@@ -251,6 +251,12 @@
                             "backgroundColor": "transparent"
                         },
                         {
+                            "tag": "@uric",
+                            "color": "#2578ef",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
                             "tag": "@rejecting",
                             "color": "#BCEC0D",
                             "strikethrough": false,
@@ -347,7 +353,7 @@
                             "backgroundColor": "transparent"
                         },
                         {
-                            "tag": "@mastery",
+                            "tag": "@master",
                             "color": "#ff0280",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
@@ -361,6 +367,12 @@
                         {
                             "tag": "@mastered",
                             "color": "#b20058",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
+                            "tag": "@data",
+                            "color": "#d289f9",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
                         },
