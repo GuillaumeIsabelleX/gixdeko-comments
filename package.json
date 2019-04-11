@@ -208,6 +208,13 @@
                             "strikethrough": false,
                             "backgroundColor": "transparent"
                         },
+			{
+                            "tag": "@expect",
+                            "color": "#FF6C20",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+
                         {
                             "tag": "@cr",
                             "color": "#FF8C00",
@@ -316,6 +323,13 @@
                             "strikethrough": false,
                             "backgroundColor": "transparent"
                         },
+			 {
+                            "tag": "@stcgoal",
+                            "color": "#FF8CFD",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+
                         {
                             "tag": "@g",
                             "color": "#FF8CFB",
