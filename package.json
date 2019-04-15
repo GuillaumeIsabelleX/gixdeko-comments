@@ -1,7 +1,6 @@
 {
     "name": "gixdeco-comments",
     "displayName": "GIX DECO Comments",
-    "icon": "icon.png",
     "description": "DEPRECATED. search gixdeko-comments",
     "version": "1.0.2",
     "publisher": "guillaumeisabelle",
@@ -9,11 +8,6 @@
         "name": "Guillaume Isabelle"
     },
     "license": "SEE LICENSE IN LICENSE.md",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/GuillaumeIsabelleX/gixdeko-comments"
-    },
-    "bugs": "https://github.com/GuillaumeIsabelleX/better-comments/issues",
     "categories": [
         "Formatters"
     ],
