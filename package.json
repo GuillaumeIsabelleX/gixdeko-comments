@@ -2,17 +2,16 @@
     "name": "gixdeco-comments",
     "displayName": "GIX DECO Comments",
     "icon": "icon.png",
-    "description": "Improve deco visual recognition in code",
-    "version": "1.0.1",
+    "description": "DEPRECATED. search gixdeko-comments",
+    "version": "1.0.2",
     "publisher": "guillaumeisabelle",
     "author": {
         "name": "Guillaume Isabelle"
     },
-    "homepage": "https://github.com/GuillaumeIsabelleX/better-comments/blob/master/README.md",
     "license": "SEE LICENSE IN LICENSE.md",
     "repository": {
         "type": "git",
-        "url": "https://github.com/GuillaumeIsabelleX/better-comments"
+        "url": "https://github.com/GuillaumeIsabelleX/gixdeko-comments"
     },
     "bugs": "https://github.com/GuillaumeIsabelleX/better-comments/issues",
     "categories": [
