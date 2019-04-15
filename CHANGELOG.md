@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.0.89] (2010-04-09)
+### Changed
+* added: handlebars supportz
+
 ## [1.0.87] (2010-04-09)
 ### Changed
 * Documentation and references
