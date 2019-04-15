@@ -247,6 +247,8 @@ export class Parser {
 			case "asciidoc":
 				this.setCommentFormat("//", "////", "////");
 				break;
+			case "hbs":
+			case "handlebars":
 			case "javascript":
 			case "javascriptreact":
 			case "typescript":
