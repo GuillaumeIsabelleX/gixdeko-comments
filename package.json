@@ -1,8 +1,9 @@
 {
     "name": "gixdeco-comments",
     "displayName": "GIX DECO Comments",
-    "description": "DEPRECATED. search gixdeko-comments",
-    "version": "1.0.2",
+    "icon": "icon.png",
+    "description": "DEPRECATED. search GIX STC DEKO",
+    "version": "1.0.4",
     "publisher": "guillaumeisabelle",
     "author": {
         "name": "Guillaume Isabelle"
