@@ -1,5 +1,6 @@
 //@feature Meaningful Colorization of Code
 //@Vision Visually Meaningful colors to point out what we are doing in our code :)
+//@due 190311
 //@cr Talk about what is really hapenning so that we know where we are in relationship to the vision.
 //@bug Buggy part require review
 
@@ -12,7 +13,6 @@
 
 //@resolving Data was valid
 
-//@d 190311
 
 //@issue Handle exception on server disconnected
 

@@ -1,5 +1,13 @@
 # Change Log
 
+## [1.0.93] (2010-04-20)
+### Changed
+* minor: screenshot preview upgraded
+
+## [1.0.92] (2010-04-20)
+### Changed
+* minor doc
+
 ## [1.0.91] (2010-04-20)
 ### Changed
 * preview upgraded
