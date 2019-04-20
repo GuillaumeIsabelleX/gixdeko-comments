@@ -2,8 +2,9 @@
 
 * Form a resemblant of an underlying structural tension while coding by marking(decorating) your intensions, observations, questions, state and see an interesting visual representation.
 
+## Preview
+ ![](stcdekoscomment.png)
 
-___
 
 ##  Dekos table  ##
 
@@ -23,6 +24,7 @@ ___
 |  @bug | Bug  |  Describe a bug |   | @issue  |
 |  @test | testing  |  Describe a test |   | @tst  |
 |  @insight | Insight  |  Describe an insight |   | @i  |
+|  @due | Due Date  |  Describe when you want that done |   | @d  |
 |  @issue | Issue  |  Describe an Issue |   |   |
 |  @mastery | Mastery  |  Describe a desired mastery |   | @m,@mastering   | 
 |  @promise | Promise class  |  Describe a desired promise class resolution |   | @p   |
