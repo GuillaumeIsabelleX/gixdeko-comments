@@ -46,12 +46,13 @@
 
 ## STC Deko Tree
 
-* Also try [GuillaumeIsabelle.deko-tree-overviewing]() VS Extension -- [marketPlace]()
+* Also try : 
+ GuillaumeIsabelle.deko-tree-overviewing https://marketplace.visualstudio.com/items?itemName=GuillaumeIsabelle.deko-tree-overviewing
 
 
 
 
-[GuillaumeIsabelle.deko-tree-overviewing]:https://github.com/GuillaumeIsabelleX/deko-tree-overviewing/blob/master/README.md#installing
+
 [marketPlace]:https://marketplace.visualstudio.com/items?itemName=GuillaumeIsabelle.deko-tree-overviewing
 
 

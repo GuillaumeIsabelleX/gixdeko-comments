@@ -1,6 +1,6 @@
 # Change Log
 
-## [1.0.94] (2010-04-20)
+## [1.0.94-96] (2010-04-20)
 ### Changed
 * minor:doc enhanced
 
