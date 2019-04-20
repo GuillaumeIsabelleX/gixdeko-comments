@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.90] (2010-04-20)
+### Changed
+* added: @due
+* Enhanced coloring
+* Enhanced Readme
+
 ## [1.0.89] (2010-04-09)
 ### Changed
 * added: handlebars supportz

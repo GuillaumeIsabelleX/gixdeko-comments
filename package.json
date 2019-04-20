@@ -1,5 +1,6 @@
 {
     "name": "gixdeko-comments",
+    "version": "1.0.90",
     "displayName": "GIX STC DEKO Comments - Structural Decorator",
     "icon": "icon.png",
     "description": "Form a resemblant of an underlying structural tension while coding by marking(decorating) your intensions, observations, questions, state and see an interesting visual representation. ",
@@ -12,7 +13,6 @@
         "postinstall": "node ./node_modules/vscode/bin/install",
         "lint": "tslint -c tslint.json 'src/**/*.ts'"
     },
-    "version": "1.0.89",
     "publisher": "guillaumeisabelle",
     "author": {
         "name": "Guillaume Isabelle"
@@ -253,7 +253,13 @@
                         },
                         {
                             "tag": "@urir",
-                            "color": "#2568ed",
+                            "color": "#427cf0",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
+                            "tag": "@d",
+                            "color": "#33ccff",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
                         },
@@ -265,7 +271,7 @@
                         },
                         {
                             "tag": "@rejecting",
-                            "color": "#BCEC0D",
+                            "color": "#ff944d",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
                         },
@@ -283,19 +289,19 @@
                         },
                         {
                             "tag": "@rejection",
-                            "color": "#BCEC0D",
+                            "color": "#ff944d",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
                         },
                         {
                             "tag": "@rejected",
-                            "color": "#BCEC1D",
+                            "color": "#ff944d",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
                         },
                         {
                             "tag": "@to_reject",
-                            "color": "#BCEC0D",
+                            "color": "#ff944d",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
                         },
@@ -307,7 +313,7 @@
                         },
                         {
                             "tag": "@insight",
-                            "color": "#eed2f7",
+                            "color": "#d693ec",
                             "strikethrough": false,
                             "backgroundColor": "#023b47"
                         },
