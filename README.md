@@ -10,9 +10,9 @@
 
 | Deko  | Name   | Goal  | Note   | Synonym   |
 |---|---|------------------------|---|---|
-|  @v | Vision   | A result we want  | Recognizable sentence you can get the picture and say, I have reached that!  |   |
-|  @a | Action  | A phase/step in a plan to reach a goal  | Intermediary result to Vision that lined up you get the vision realized.  Goes with a @v  |   |
-|  @o | Observation  | Point an observation  |   |   |
+|  @v | Vision   | A result we want  | Recognizable sentence you can get the picture and say, I have reached that!  |  @vision | 
+|  @a | Action  | A phase/step in a plan to reach a goal  | Intermediary result to Vision that lined up you get the vision realized.  Goes with a @v  |  @action |
+|  @o | Observation  | Point an observation  |   | @Observation  |
 |  @cr | Current Reality  | Picture where you are in relationship to the vision (@v)  |   |  @s,@currentreality |
 |  @s | Status  | Same as @cr  | I use it to state what is hapenning in code in contrast to @cr which is more charting related to vision (@v)  |  @cr |
 |  @q | Question  | A Question to create tension  | Useful to give the mind a thing to do  |   |
