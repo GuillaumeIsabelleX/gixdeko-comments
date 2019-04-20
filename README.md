@@ -40,14 +40,16 @@
 
 
 ## Structural Thinking
-* Know more on Structural Thinking [Fritz Structural Thinking]()
+* Know more on Structural Thinking :
+ Fritz Structural Thinking : http://guillaumeisabelle.com/r/structural-thinking/stc-deko-readme
+
 
 ## STC Deko Tree
 
 * Also try [GuillaumeIsabelle.deko-tree-overviewing]() VS Extension -- [marketPlace]()
 
 
- [Fritz Structural Thinking]:http://guillaumeisabelle.com/r/structural-thinking/stc-deko-readme
+
 
 [GuillaumeIsabelle.deko-tree-overviewing]:https://github.com/GuillaumeIsabelleX/deko-tree-overviewing/blob/master/README.md#installing
 [marketPlace]:https://marketplace.visualstudio.com/items?itemName=GuillaumeIsabelle.deko-tree-overviewing
