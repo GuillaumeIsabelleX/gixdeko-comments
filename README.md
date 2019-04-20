@@ -18,13 +18,13 @@ ___
 |  @startuml | UML  | see PlantUML   |   |   |
 |  @startmc | Start a MasterChart  | MasterChart description   |   |   |
 |  @mc | State a MasterChart goal  |   | Top level goal might help another action so you can see the whole hierarchy  | @MasterChart  |
+|  @data | About Data | Specific to data | @fields | |
 |  @fields | Data props  |  Ennumerate data props | @fields GoalText,DueDate,Note  |   |
 |  @bug | Bug  |  Describe a bug |   | @issue  |
 |  @test | testing  |  Describe a test |   | @tst  |
 |  @insight | Insight  |  Describe an insight |   | @i  |
 |  @issue | Issue  |  Describe an Issue |   |   |
-|  @mastery | Mastery  |  Describe a desired mastery |   | @m,@mastering   |
-|  @mastery | Mastery  |  Describe a desired mastery |   | @m   |
+|  @mastery | Mastery  |  Describe a desired mastery |   | @m,@mastering   | 
 |  @promise | Promise class  |  Describe a desired promise class resolution |   | @p   |
 |  @resolving | Promise class resolving  |  Describe a desired promise class resolution |   | @res,@resolution,@to_resolve ,@resolved  |
 |  @rejecting | Promise class rejection  |  Describe a desired promise class rejection |   | @rejection,@reject,@to_reject,@rejected   |
@@ -36,13 +36,13 @@ ___
 
 # OTHER RESOURCES
 
-## STC Deko Tree
-
-* Also try [GuillaumeIsabelle.deko-tree-overviewing]() VS Extension -- [marketPlace]()
 
 ## Structural Thinking
 * Know more on Structural Thinking [Fritz Structural Thinking]()
 
+## STC Deko Tree
+
+* Also try [GuillaumeIsabelle.deko-tree-overviewing]() VS Extension -- [marketPlace]()
 
 
  [Fritz Structural Thinking]:http://guillaumeisabelle.com/r/structural-thinking/stc-deko-readme
@@ -56,7 +56,7 @@ ___
 
 ---
 
-# thanks to: aaron-bond from which this was based and inspired from Better Comments
+# thanks to: aaron-bond from which this was based - inspired from Better Comments
 
 
 
@@ -91,20 +91,8 @@ The default 5 can be modifed to change the colors, and more can be added.
     "backgroundColor": "transparent"
   },
   {
-    "tag": "//",
-    "color": "#474747",
-    "strikethrough": true,
-    "backgroundColor": "transparent"
-  },
-  {
-    "tag": "todo",
+    "tag": "@v",
     "color": "#FF8C00",
-    "strikethrough": false,
-    "backgroundColor": "transparent"
-  },
-  {
-    "tag": "*",
-    "color": "#98C379",
     "strikethrough": false,
     "backgroundColor": "transparent"
   }
@@ -136,6 +124,7 @@ The default 5 can be modifed to change the colors, and more can be added.
 * Haskell
 * Haxe
 * HiveQL
+* Handlebars
 * HTML
 * Java
 * JavaScript
