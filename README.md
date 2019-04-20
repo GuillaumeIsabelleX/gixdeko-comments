@@ -53,9 +53,6 @@
 
 
 
-[marketPlace]:https://marketplace.visualstudio.com/items?itemName=GuillaumeIsabelle.deko-tree-overviewing
-
-
 
 ___
 
