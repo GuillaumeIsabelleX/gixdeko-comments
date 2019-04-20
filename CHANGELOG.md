@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.0.94] (2010-04-20)
+### Changed
+* minor:doc enhanced
+
 ## [1.0.93] (2010-04-20)
 ### Changed
 * minor: screenshot preview upgraded

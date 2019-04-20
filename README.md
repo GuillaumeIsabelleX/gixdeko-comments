@@ -14,8 +14,8 @@
 |  @a | Action  | A phase/step in a plan to reach a goal  | Intermediary result to Vision that lined up you get the vision realized.  Goes with a @v  |  @action |
 |  @o | Observation  | Point an observation  |   | @Observation  |
 |  @cr | Current Reality  | Picture where you are in relationship to the vision (@v)  |   |  @s,@currentreality |
-|  @s | Status  | Same as @cr  | I use it to state what is hapenning in code in contrast to @cr which is more charting related to vision (@v)  |  @cr |
-|  @q | Question  | A Question to create tension  | Useful to give the mind a thing to do  |   |
+|  @s | Status  | Same as @cr  | I use it to state what is hapenning in code in contrast to @cr which is more charting related to vision (@v)  |  @cr,@state |
+|  @q | Question  | A Question to create tension  | Useful to give the mind a thing to do  | @question  |
 |  @startuml | UML  | see PlantUML   |   |   |
 |  @startmc | Start a MasterChart  | MasterChart description   |   |   |
 |  @mc | State a MasterChart goal  |   | Top level goal might help another action so you can see the whole hierarchy  | @MasterChart  |
