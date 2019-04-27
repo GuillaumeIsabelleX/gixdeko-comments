@@ -239,7 +239,7 @@ export class Parser {
 
 	private setDelimiter(languageCode: string): void {
 		//@issue 1901 Sets the DElimiters for Lang
-		//@q 190110 How comes the Javascript has none?? (same as TypeScript
+		//@q 190110 How comes the Javascript has none?? 
 		this.supportedLanguage = true;
 		this.ignoreFirstLine = false;
 		this.isPlainText = false;
