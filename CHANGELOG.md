@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.0.98] (2010-04-27)
+### Minor
+* Typo
+
 ## [1.0.94-97] (2010-04-20)
 ### Changed
 * minor:doc enhanced
