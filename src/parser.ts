@@ -238,8 +238,8 @@ export class Parser {
 	 */
 
 	private setDelimiter(languageCode: string): void {
-		//@issue 1901 Sets the DElimiters for Lang
-		//@q 190110 How comes the Javascript has none?? 
+		//@Vision 1901 Sets the DElimiters for Lang
+		
 		this.supportedLanguage = true;
 		this.ignoreFirstLine = false;
 		this.isPlainText = false;
