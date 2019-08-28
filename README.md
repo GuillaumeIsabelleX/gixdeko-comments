@@ -1,5 +1,6 @@
 # Intentions #
 
+* Structure your thinking for an optimal innovative orientation.
 * Form a resemblant of an underlying structural tension while coding by marking(decorating) your intentions, observations, questions, state and see an interesting visual representation.
 
 ## Preview
