@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.0.100] (2010-04-27)
+### Minor
+* Intention clarified
+
 ## [1.0.98] (2010-04-27)
 ### Minor
 * Typo
