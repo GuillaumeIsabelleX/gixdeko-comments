@@ -1,6 +1,14 @@
 # Change Log
 
-## [1.0.100] (2010-04-27)
+
+## [1.0.101] (2010-09-01)
+### Feature
+* Added dekorator x and hyp
+x = Experimentation  
+hyp = Hypothesis
+
+
+## [1.0.100] (2010-08-27)
 ### Minor
 * Intention clarified
 
