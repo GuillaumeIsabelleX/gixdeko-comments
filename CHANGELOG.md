@@ -1,6 +1,10 @@
 # Change Log
 
 
+## [1.0.102] (2010-09-04)
+### Feature/Changes
+added deko: STCHyp, FNS. chg: deko s for sta (state,status)
+
 ## [1.0.101] (2010-09-01)
 ### Feature
 * Added dekorator x and hyp
