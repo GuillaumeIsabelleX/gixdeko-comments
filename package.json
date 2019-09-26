@@ -1,6 +1,6 @@
 {
     "name": "gixdeko-comments",
-    "version": "1.0.100",
+    "version": "1.0.102",
     "displayName": "GIX STC DEKO Comments - Structural Decorator",
     "icon": "icon.png",
     "description": "Form a resemblant of an underlying structural tension while coding by marking(decorating) your intensions, observations, questions, state and see an interesting visual representation. ",
@@ -167,6 +167,18 @@
                             "backgroundColor": "transparent"
                         },
                         {
+                            "tag": "@hyp",
+                            "color": "#EAE10D",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
+                            "tag": "@stchyp",
+                            "color": "#EAE10D",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
                             "tag": "@featur",
                             "color": "#ECE30C",
                             "strikethrough": false,
@@ -251,6 +263,12 @@
                             "backgroundColor": "transparent"
                         },
                         {
+                            "tag": "@fns",
+                            "color": "#427cf0",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
                             "tag": "@d",
                             "color": "#33ccff",
                             "strikethrough": false,
@@ -329,7 +347,7 @@
                             "backgroundColor": "transparent"
                         },
                         {
-                            "tag": "@s",
+                            "tag": "@sta",
                             "color": "#FF8C00",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
@@ -343,6 +361,12 @@
                         {
                             "tag": "@a",
                             "color": "#02ff63",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
+                            "tag": "@x",
+                            "color": "#02fa61",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
                         },
