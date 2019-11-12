@@ -323,6 +323,12 @@
                             "backgroundColor": "transparent"
                         },
                         {
+                            "tag": "@STCIssue",
+                            "color": "#ff6500",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
                             "tag": "@insight",
                             "color": "#d693ec",
                             "strikethrough": false,
