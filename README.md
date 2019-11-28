@@ -17,7 +17,9 @@
 |  @cr | Current Reality  | Picture where you are in relationship to the vision (@v)  |   |  @s,@currentreality |
 |  @sta | Status  | Same as @cr  | I use it to state what is hapenning in code in contrast to @cr which is more charting related to vision (@v)  |  @cr,@state,@status |
 |  @q | Question  | A Question to create tension  | Useful to give the mind a thing to do  | @question  |
-|  @issue | Issue  |  Describe an Issue |   |   |
+|  @issue | Issue  |  Describe an Issue |   | @problem, @problematic  |
+|  @context | Context | Describe the context in any doc | | |
+|  @concept | Concept | Highlight a  concept | | |
 |  @hyp | Question  | An hypothesis   | For researcher | @hypothesis, @stchyp  |
 |  @startuml | UML  | see PlantUML   |   |   |
 |  @startmc | Start a MasterChart  | MasterChart description   |   |   |
