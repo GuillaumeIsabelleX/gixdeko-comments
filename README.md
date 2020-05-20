@@ -27,6 +27,7 @@
 |  @data | About Data | Specific to data | @fields | |
 |  @fields | Data props  |  Ennumerate data props | @fields GoalText,DueDate,Note  |   |
 |  @bug | Bug  |  Describe a bug |   | @issue  |
+|  @prereq | Prerequisit  |  Describe a prerequisite |   | @STCPrereq  |
 |  @test | testing  |  Describe a test |   | @tst  |
 |  @insight | Insight  |  Describe an insight |   | @i  |
 |  @due | Due Date  |  Describe when you want that done |   | @d  |
