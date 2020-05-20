@@ -27,8 +27,8 @@
     "categories": [
         "Formatters"
     ],
-    "engines": {
-       
+    "engines": {        
+        "vscode": "^1.1.37"
     },
     "activationEvents": [
         "onLanguage:ada",
@@ -500,6 +500,6 @@
         "tslint": "^5.10.0",
         "typescript": "^2.6.1",
         "vsce": "^1.75.0",
-        "vscode": "^1.8.1"
+        "vscode": "^1.1.37"
     }
 }
