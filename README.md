@@ -183,3 +183,9 @@ The default 5 can be modifed to change the colors, and more can be added.
 * Vue.js
 * YAML
 
+
+
+# Debugging temp
+
+
+        "postinstall": "node ./node_modules/vscode/bin/install",

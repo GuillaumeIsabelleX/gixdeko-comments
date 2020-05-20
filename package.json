@@ -10,7 +10,6 @@
         "vscode:prepublish": "npm run compile",
         "compile": "tsc -p ./",
         "watch": "tsc -watch -p ./",
-        "postinstall": "node ./node_modules/vscode/bin/install",
         "lint": "tslint -c tslint.json 'src/**/*.ts'"
     },
     "publisher": "guillaumeisabelle",
