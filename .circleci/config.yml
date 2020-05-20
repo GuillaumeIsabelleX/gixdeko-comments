@@ -7,7 +7,8 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: circleci/node:10
+      - image: jgwill/gixcidock:latest
+      # - image: circleci/node:10
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
@@ -23,7 +24,7 @@ jobs:
       #GITHUB_TOKEN
 
      # Install VSCE 
-      - run: npm i vsce --g  
+      #- run: yarn add vsce  
 
         # GIT User setup so we can publish the Doc
       - run: git config --global user.email "jgi@jgwill.com" && git config --global user.name "Guillaume Isabelle"
@@ -35,5 +36,5 @@ jobs:
       # run tests!
       #@issue It restart Building in loop so versionning will have to be done before pushing new release code
 #      - run: yarn pre-release-patch && yarn vscode:prepublish && ./node_modules/.bin/vsce publish -p "${VS_TOKEN}"
-      - run: yarn vscode:prepublish && ./node_modules/.bin/vsce publish -p "${VS_TOKEN}"
+      - run: yarn vscode:prepublish && vsce publish -p "${VS_TOKEN}"
 
