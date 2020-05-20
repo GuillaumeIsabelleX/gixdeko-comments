@@ -10,6 +10,7 @@
         "vscode:prepublish": "npm run compile",
         "compile": "tsc -p ./",
         "watch": "tsc -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install",
         "lint": "tslint -c tslint.json 'src/**/*.ts'"
     },
     "publisher": "guillaumeisabelle",
@@ -27,7 +28,7 @@
         "Formatters"
     ],
     "engines": {
-        "vscode": "^1.1.37"
+        "vscode": "^1.8.1"
     },
     "activationEvents": [
         "onLanguage:ada",
@@ -498,9 +499,9 @@
         "@types/node": "^8.0.0",
         "tslint": "^5.10.0",
         "typescript": "^2.6.1",
-        "vsce": "^1.75.0"
+        "vsce": "^1.75.0",
+        "vscode": "^1.1.0"
     },
     "dependencies": {
-        "vscode": "^1.1.37"
     }
 }

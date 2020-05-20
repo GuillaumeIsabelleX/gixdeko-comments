@@ -24,7 +24,7 @@ jobs:
       - run: git init
       - run: git remote add origin https://${GITHUB_TOKEN}@github.com/GuillaumeIsabelleX/gixdeko-comments.git
       - run: git pull origin master
-      
+
       #GITHUB_TOKEN
 
      # Install VSCE 
@@ -34,6 +34,7 @@ jobs:
       - run: git config --global user.email "jgi@jgwill.com" && git config --global user.name "Guillaume Isabelle"
 
 
+      - run: yarn install --dev
       - run: yarn install --ignore-engines
 
      
