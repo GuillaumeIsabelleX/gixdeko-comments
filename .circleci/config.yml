@@ -20,7 +20,11 @@ jobs:
     steps:
       #- checkout
 #https://github.com/GuillaumeIsabelleX/
-      - run: git clone https://${GITHUB_TOKEN}@github.com/GuillaumeIsabelleX/gixdeko-comments.git .
+      # - run: git clone  .
+      - run: git init
+      - run: git remote add origin https://${GITHUB_TOKEN}@github.com/GuillaumeIsabelleX/gixdeko-comments.git
+      - run: git pull origin master
+      
       #GITHUB_TOKEN
 
      # Install VSCE 
