@@ -28,7 +28,7 @@
         "Formatters"
     ],
     "engines": {
-        "vscode": "^1.8.1"
+       
     },
     "activationEvents": [
         "onLanguage:ada",
