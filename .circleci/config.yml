@@ -21,9 +21,7 @@ jobs:
       #- checkout
 #https://github.com/GuillaumeIsabelleX/
       # - run: git clone  .
-      - run: git init
-      - run: git remote add origin https://${GITHUB_TOKEN}@github.com/GuillaumeIsabelleX/gixdeko-comments.git
-      - run: git pull origin master
+      - run: git init && git remote add origin https://${GITHUB_TOKEN}@github.com/GuillaumeIsabelleX/gixdeko-comments.git && git pull origin master
 
       #GITHUB_TOKEN
 
@@ -33,7 +31,7 @@ jobs:
         # GIT User setup so we can publish the Doc
       - run: git config --global user.email "jgi@jgwill.com" && git config --global user.name "Guillaume Isabelle"
 
-
+      - run: echo ${VS_TOKEN}
       - run: yarn install --dev
       - run: yarn install --ignore-engines
 
