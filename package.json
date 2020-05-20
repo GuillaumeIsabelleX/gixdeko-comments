@@ -1,6 +1,6 @@
 {
     "name": "gixdeko-comments",
-    "version": "1.0.108",
+    "version": "1.0.109",
     "displayName": "GIX STC DEKO Comments - Structural Decorator",
     "icon": "icon.png",
     "description": "Form a resemblant of an underlying structural tension while coding by marking(decorating) your intensions, observations, questions, state and see an interesting visual representation. ",
@@ -499,7 +499,7 @@
         "@types/node": "^8.0.0",
         "tslint": "^5.10.0",
         "typescript": "^2.6.1",
-        "vsce": "^1.59.0",
+        "vsce": "^1.75.0",
         "vscode": "^1.1.0"
     }
 }

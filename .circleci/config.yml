@@ -23,7 +23,7 @@ jobs:
       #GITHUB_TOKEN
 
      # Install VSCE 
-      - run: yarn add vsce  
+      - run: npm i vsce --g  
 
         # GIT User setup so we can publish the Doc
       - run: git config --global user.email "jgi@jgwill.com" && git config --global user.name "Guillaume Isabelle"
