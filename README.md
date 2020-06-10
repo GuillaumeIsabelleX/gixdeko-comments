@@ -7,6 +7,23 @@
  ![](stcdekoscomment.png)
 
 
+
+# Support
+
+**GIX-DEKO-COmments** is an open source extension created for **Visual Studio Code**. While being free and open source, if you find it useful, please consider supporting it.
+
+<table align="center" width="60%" border="0">
+  <tr>
+    <td>
+      <a title="Paypal" href="https://paypal.me/pools/c/8pS80Qhuil"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif"/></a>
+    </td>
+    <td>
+      <a title="Patreon" href="https://www.patreon.com/GuillaumeIsabelle"><img src="fund-become-patreon.png"/></a>
+    </td>
+  </tr>
+</table>
+
+
 ##  Dekos table  ##
 
 | Deko  | Name   | Goal  | Note   | Synonym   |
