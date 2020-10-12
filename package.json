@@ -1,6 +1,6 @@
 {
     "name": "gixdeko-comments",
-    "version": "1.0.115",
+    "version": "1.0.116",
     "displayName": "GIX STC DEKO Comments - Structural Decorator",
     "icon": "icon.png",
     "description": "Form a resemblant of an underlying structural tension while coding by marking(decorating) your intensions, observations, questions, state and see an interesting visual representation. ",
@@ -397,6 +397,12 @@
                         {
                             "tag": "@stcgoal",
                             "color": "#FF8CFD",
+                            "strikethrough": false,
+                            "backgroundColor": "transparent"
+                        },
+                        {
+                            "tag": "@intent",
+                            "color": "#FF8DFC",
                             "strikethrough": false,
                             "backgroundColor": "transparent"
                         },
