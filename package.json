@@ -1,6 +1,6 @@
 {
     "name": "gixdeko-comments",
-    "version": "1.0.117",
+    "version": "1.0.118",
     "displayName": "GIX STC DEKO Comments - Structural Decorator",
     "icon": "icon.png",
     "description": "Form a resemblant of an underlying structural tension while coding by marking(decorating) your intensions, observations, questions, state and see an interesting visual representation. ",
@@ -137,366 +137,407 @@
                     "description": "Tags which are used to color the comments. Changes require a restart of VS Code to take effect",
                     "default": [
                         {
-                            "tag": "!",
-                            "color": "#FF2D00",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@o",
-                            "color": "#0afdff",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "#",
-                            "color": "#050505",
-                            "strikethrough": false,
-                            "backgroundColor": "#fce485"
-                        },
-                        {
-                            "tag": "?",
-                            "color": "#ECE20D",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@j",
-                            "color": "#F7C6CB",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@context",
-                            "color": "#BBE3EB",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@concept",
-                            "color": "#CB9ECF",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@limit",
-                            "color": "#EEB416",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@q",
-                            "color": "#ECE20D",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@hyp",
-                            "color": "#EAE10D",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@stchyp",
-                            "color": "#EAE10D",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@featur",
-                            "color": "#ECE30C",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@test",
-                            "color": "#FF8C71",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@tst",
-                            "color": "#FF8C01",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@tested",
-                            "color": "#FF8C94",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@testing",
-                            "color": "#FF8C70",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@result",
-                            "color": "#FF6C20",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@stcresults",
-                            "color": "#FF6C20",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@expect",
-                            "color": "#FF6C20",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@cr",
-                            "color": "#FF8C00",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@currentreality",
-                            "color": "#FF8C00",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@bug",
-                            "color": "#EC370D",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@STCPrereq",
-                            "color": "#EB370B",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@prereq",
-                            "color": "#EB370B",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@problem",
-                            "color": "#EC370D",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@promise",
-                            "color": "#A4EC1D",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@resolving",
-                            "color": "#94EC0D",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@resource",
-                            "color": "#1568ed",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@urir",
-                            "color": "#427cf0",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@fns",
-                            "color": "#427cf0",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@d",
-                            "color": "#33ccff",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@uric",
-                            "color": "#2578ef",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@rejecting",
-                            "color": "#ff944d",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@to_resolve",
-                            "color": "#BCEC0D",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@resolved",
-                            "color": "#BCEC0D",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@rejection",
-                            "color": "#ff944d",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@rejected",
-                            "color": "#ff944d",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@to_reject",
-                            "color": "#ff944d",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@issue",
-                            "color": "#ff6500",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@STCIssue",
-                            "color": "#ff6500",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@insight",
-                            "color": "#d693ec",
-                            "strikethrough": false,
-                            "backgroundColor": "#023b47"
-                        },
-                        {
-                            "tag": "@info",
-                            "color": "#9ecff7",
-                            "strikethrough": false,
-                            "backgroundColor": "#05253f"
-                        },
-                        {
-                            "tag": "@v",
-                            "color": "#FF8CFD",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@stcgoal",
-                            "color": "#FF8CFD",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@intent",
-                            "color": "#FF8DFC",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@sta",
-                            "color": "#FF8C00",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@g",
-                            "color": "#FF8CFB",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@a",
-                            "color": "#02ff63",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@x",
-                            "color": "#02fa61",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@mc",
-                            "color": "#FF8C00",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "_",
-                            "color": "#f3fccf",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "-",
-                            "color": "#f3fcca",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@m",
-                            "color": "#ff0280",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@master",
-                            "color": "#ff0280",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@mastering",
-                            "color": "#ff0280",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@mastered",
-                            "color": "#b20058",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@data",
-                            "color": "#d289f9",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@fields",
-                            "color": "#95FB03",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@startuml",
-                            "color": "#FF8C00",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        },
-                        {
-                            "tag": "@enduml",
-                            "color": "#FF8C00",
-                            "strikethrough": false,
-                            "backgroundColor": "transparent"
-                        }
-                    ]
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@o",
+            "color": "#0afdff",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@file",
+            "color": "#0dfdff",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "#",
+            "color": "#050505",
+            "strikethrough": false,
+            "backgroundColor": "#fce485"
+        },
+        {
+            "tag": "?",
+            "color": "#ECE20D",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@j",
+            "color": "#F7C6CB",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@context",
+            "color": "#BBE3EB",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@ingroup",
+            "color": "#BBE3EB",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@cat",
+            "color": "#BBE3EB",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@concept",
+            "color": "#CB9ECF",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@limit",
+            "color": "#EEB416",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@q",
+            "color": "#ECE20D",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@hyp",
+            "color": "#EAE10D",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@stchyp",
+            "color": "#EAE10D",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@featur",
+            "color": "#ECE30C",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@test",
+            "color": "#FF8C71",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@tst",
+            "color": "#FF8C01",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@tested",
+            "color": "#FF8C94",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@testing",
+            "color": "#FF8C70",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@result",
+            "color": "#FF6C20",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@stcresults",
+            "color": "#FF6C20",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@expect",
+            "color": "#FF6C20",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@cr",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@currentreality",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@bug",
+            "color": "#EC370D",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@STCPrereq",
+            "color": "#EB370B",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@prereq",
+            "color": "#EB370B",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@problem",
+            "color": "#EC370D",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@promise",
+            "color": "#A4EC1D",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@resolving",
+            "color": "#94EC0D",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@resource",
+            "color": "#1568ed",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@urir",
+            "color": "#427cf0",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@fns",
+            "color": "#427cf0",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@d",
+            "color": "#33ccff",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@uric",
+            "color": "#2578ef",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@rejecting",
+            "color": "#ff944d",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@to_resolve",
+            "color": "#BCEC0D",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@resolved",
+            "color": "#BCEC0D",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@rejection",
+            "color": "#ff944d",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@rejected",
+            "color": "#ff944d",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@to_reject",
+            "color": "#ff944d",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@issue",
+            "color": "#ff6500",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@STCIssue",
+            "color": "#ff6500",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@insight",
+            "color": "#d693ec",
+            "strikethrough": false,
+            "backgroundColor": "#023b47"
+        },
+        {
+            "tag": "@info",
+            "color": "#9ecff7",
+            "strikethrough": false,
+            "backgroundColor": "#05253f"
+        },
+        {
+            "tag": "@v",
+            "color": "#FF8CFD",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@brief",
+            "color": "#FA8CDE",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@stcgoal",
+            "color": "#FF8CFD",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@sta",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@retval",
+            "color": "#CF8B10",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@STCStatus",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@g",
+            "color": "#FF8CFB",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@par",
+            "color": "#A2C441",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@a",
+            "color": "#02ff63",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@x",
+            "color": "#02fa61",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@mc",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "_",
+            "color": "#f3fccf",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "-",
+            "color": "#f3fcca",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@m",
+            "color": "#ff0280",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@fn",
+            "color": "#ff0280",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@master",
+            "color": "#ff0280",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@mastering",
+            "color": "#ff0280",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@mastered",
+            "color": "#b20058",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@data",
+            "color": "#d289f9",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@fields",
+            "color": "#95FB03",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@startuml",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "@enduml",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        }                    ]
                 }
             }
         }
